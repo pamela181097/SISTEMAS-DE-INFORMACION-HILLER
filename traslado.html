@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario de Traslado</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<div class="from">
+			<form action="#" method="POST">
+				<p>ORDEN DE TRASLADO</p>
+				<label for="traslado">N° orden de traslado</label>
+				<input type="text" name="numero" placeholder="Numero" required>
+				<br>
+				<br>
+				<label for="fecha">Fecha</label>
+				<input type="Fecha" name="fecha" placeholder="dia/mes/año" required>
+				<br>
+				<br>
+				<label for="almacen">Almacen de destino</label>
+                <input type="text" name="almacen" placeholder="idalmacen" required>
+				<br>
+				<br>
+				<label for="encargado">Preparado por:</label>
+                <input type="text" name="encargado" placeholder="idpersona_que_alisto" required>
+				<br>
+				<br>
+				<label for="Transportador">Transportador</label>
+                <input type="text" name="transportador"placeholder="idtransportador" required>
+				<br>
+				<br>
+				<label for="recepcionador">Recepcionado por:</label>
+                <input type="text" name="recepcionador"placeholder="idrecepcionador" required>
+				<br>
+				<br>
+				<label for="jefe_almacen">Jefe almacen Origen</label>
+                <input type="text" name="jefe_almacen"placeholder="idjefe_almacen_origen" required>
+				<br>
+				<br>
+				<p>Detalle</p>
+				<br>
+				<textarea name="detalle" placeholder="detalle" required></textarea>
+				<input type="submit" value="Enviar">
+	
+			</form>	
+		</div>
+	</body>
+</html>
